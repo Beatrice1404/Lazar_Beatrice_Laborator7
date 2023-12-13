@@ -13,6 +13,10 @@ namespace Lazar_Beatrice_Laborator7
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
+                })
+                .ConfigureEssentials(essentials =>
+                {
+                    essentials.UseMapServiceToken("6wt52Dt7kbQWRHmMeLnB~jpY_JKekONPJJp159z2J-A~AlPHn2I7JdrZUCjM66n_Y1fOV6XXdqmoha3QpN2XyW2ng7fOFM0kroMpsEM2v1o3");
                 });
 
 #if DEBUG
